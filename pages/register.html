@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div style="width: 400px; height: auto; background-color: grey;">
+
+        <h1 style="color: firebrick;">რეგისტრაცია</h1>
+       
+        <form>
+
+            <div>
+                <label style="color: azure;" for="Name">სახელი</label>
+                <input type="name" id="Name" placeholder="სახელი" >
+            </div>
+                <div>
+                    <label style="color: black;" for="Username">გვარი</label>
+                    <input type="username" id="Username" placeholder="გვარი">
+                </div>
+                
+                <div>
+                    <label style="color: aqua;" for="Age">ასაკი</label>
+                    <input type="number" name="age" placeholder="ასაკი" id="Age">
+                    
+                    <div>
+                        <label style="color: yellow;" for="number">ტელეფონის ნომერი</label>
+                        <input type="number" name="number" id="number" placeholder="ტელეფონის ნომერი">
+                        
+                        <div>
+                            <label style="color: saddlebrown;" for="email">ელ.ფოსტა</label>
+                            <input type="email" id="email" placeholder="ელ.ფოსტა">
+                            
+                            <div>
+                                <label style="color: midnightblue;" for="password">პაროლი</label>
+                                <input type="password" name="password" id="password" required minlength="8" placeholder="პაროლი">
+                            </div>
+                              <div>
+                                <h3 style="color: chartreuse;">სქესი</h3>
+                                <label style="color:pink;" for="woman">ქალი</label>
+                                <input type="radio" id="woman" name="gender">
+                                <label style="color: blue;" for="man">კაცი</label>
+                                <input type="radio" id="man" name="gender">
+                                <label style="color: saddlebrown" for="mexanik">მეხანიკი</label>
+                                <input type="radio" id="mexanik" name="gender">
+                                
+                              </div>    
+                              <div>
+                               <button type="submit" style= "color: red; background-color: black; width: 150px; height: 50px;"  >გაგზავნა</button>
+                              </div>                
+                        </div>
+                    </div>
+                </div>
+            </div>    
+           
+        </form>
+        <a style="color: midnightblue; background-color: grey;" href="../index.html">უკან დაბრუნება</a>
+</body>
+</html>
